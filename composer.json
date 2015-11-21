@@ -1,0 +1,23 @@
+{
+    "name": "jaybhatt/amazon-mws-orders",
+    "description": "Amazon Marketplace Web Service Orders API - PHP for managing Orders with Amazon market place.",
+    "type": "library",
+    "keywords": ["amazon","mws", "orders"],
+    "homepage": "http://jayeshbhatt.com/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Jay Bhatt",
+            "email": "jay_bhatt@outlook.com",
+            "homepage": "http://jayeshbhatt.com"
+        }
+    ],
+    "require": {
+		"php": ">=5.2.8",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "include-path": ["src/"]
+}
